@@ -1,0 +1,7 @@
+prefix: "&3Yu&bSkill &7|"
+
+command-reload: "{prefix} &a重载成功!"
+
+skill-cooldown: "{prefix} &c技能 &e{skill} &c正在冷却中, 还剩余 &e{cooldown} &c秒."
+other-cast-skill: "{prefix} &e{caster} &a释放了技能 &e{skill}&a."
+self-cast-skill: "{prefix} &a你释放了技能 &e{skill}&a."

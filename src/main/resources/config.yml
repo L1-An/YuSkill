@@ -1,0 +1,4 @@
+settings:
+  cast-notify:
+    enable: true # 玩家释放技能后是否向周围玩家发送通知
+    radius: 20 # 通知半径

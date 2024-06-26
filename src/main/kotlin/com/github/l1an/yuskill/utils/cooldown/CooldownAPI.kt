@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap
  */
 object CooldownAPI {
 
-    val map = ConcurrentHashMap<String, Long>()
+    private val map = ConcurrentHashMap<String, Long>()
 
     /**获取剩余时间，单位为 s */
     fun getTime(livingEntity: LivingEntity, key: String): Int {

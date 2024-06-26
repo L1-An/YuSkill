@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import io.izzel.taboolib.gradle.*
 
 plugins {
@@ -29,7 +28,7 @@ taboolib {
             name("L1An")
         }
     }
-    version { taboolib = "6.1.1" }
+    version { taboolib = "6.1.2-beta10" }
     relocate("org.serverct.parrot.parrotx", "${project.group}.parrotx")
 }
 
